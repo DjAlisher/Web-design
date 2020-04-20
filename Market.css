@@ -1,0 +1,347 @@
+@charset 'utf-8';
+* {
+   margin: 0;
+   padding: 0; 
+   outline: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 1em ;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 135%;
+}
+
+hr{
+    display: block;
+    border: 0px;
+    height: 1px;
+    border-top: 1px solid rgb(216, 226, 123) ;
+}
+
+a{
+    color: thistle;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition:all.6s ease;
+    -ms-transition:all.6s ease;
+}
+html{
+    height: 100%;
+}
+
+page-wrap:after{
+    content:"";
+    display: block;
+}
+
+footer, #pagewrap:after{height: 10px;}
+
+#pagewrap{
+    min-height: 97%;
+    margin-bottom: -10px;
+}
+
+a:hover{
+    color: rgb(199, 40, 114);
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition:all.6s ease;
+    -ms-transition:all.6s ease;
+}
+
+a:active{color: rgb(105, 224, 195)}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+}
+
+
+/* Selection block */
+
+::selection {background: rgb(91, 152, 209); color:#fff ;}
+::-moz-selection {background: darksalmon; color: #fff;}
+header, footer{
+    width: 98%;
+    background-color:rgba(155, 106, 106, 0.5);
+    float: left;
+    
+    }
+
+#auth{margin-right: 10px;}    
+
+header{
+    border-bottom:2px solid silver;
+    padding:    1%;
+} 
+
+#logo{
+    font-size: 2.5em;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+.right{float:right}
+.left{float: left}
+
+
+
+.contact {
+    font-size: 1.2em;
+    font-family: Comic Sans MS, sans-serif;
+    margin-left: 15px;
+}
+
+input[type=text].field{
+    border-radius: 2px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+input[type=text].field:focus {
+    border: 2px solid rgb(167, 165, 164);
+    
+}
+
+#About{
+    color: slateblue;
+}
+
+#About:hover{
+    color: rgb(4, 109, 95);
+}
+
+footer{
+    padding: 2%;
+    border-top: 2px solid silver;
+    margin-top: 2px solid silver;
+}
+
+footer img{width: 8%;
+float: left;
+scroll-margin-right: 15px;}
+
+.clear{clear: both;}
+
+
+#menu{
+    color: burlywood;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+}
+
+#menu hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#menuHrefs a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color:rgb(0, 255, 128)
+}
+
+#menuHrefs a:hover {
+    background-color: rgb(54, 149, 194);
+
+}
+#wrapper{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles{
+    float: left;
+    width: 100%;
+    margin-left: 10;
+}
+
+#wrapper #articles article{
+    float: left;
+    width: 31.3%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:rgb(199, 199, 199); 
+    margin-right: 2%;
+    height: 400px;
+}
+
+#wrapper #articles article img{
+    width: 100%;
+    height: 80%;
+      
+}
+
+#wrapper #articles article h1{
+    width: 90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1.7em;   
+}
+
+.mort{
+    padding: 5px 1px;
+    background-color: rgb(170, 189, 224);
+    margin-left: 2px;
+    border-radius: 10px;
+    color: rgb(168, 204, 9);
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.mort:hover{
+    background-color: rgb(88, 157, 197);
+}
+
+#main_social{
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 2px solid silver;
+    border-top:2px solid silver;
+    margin: 20px 0;
+    float: left;
+    background:url('https://codecanyon.img.customer.envatousercontent.com/files/130552385/16_animated_seo_icons_svg.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=8b7d2e33a9fa0dfba5c41a1c89454e99') repeat-x center;
+    height: 200px;
+}
+
+#main_social_in{
+    color: rgb(214, 238, 0);
+    background-color: burlywood;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1%;
+    height: 100px;
+    border-radius: 7px;
+    width: 500px;
+    max-width: 98%;
+}
+
+#main_social_in a {
+    float: left;
+    padding: 5px 10px;
+    background-color: rgb(214, 143, 11);
+    border-radius: 6px;
+    margin-left: 35%;
+    margin-top: 10px;
+    color: #fff
+}
+
+/* About us */
+
+#about_us {
+    width: 50%;
+    float: left;
+    background-color: #f0e055;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#columnRight {
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    margin-block-end: 5px;
+    margin-left: 5%;
+    margin-right: 3%;
+    background-color: #f0e055;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+
+}
+
+#menuHrefs_feedback a {
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color:rgb(252, 10, 10)
+}
+
+#menuHrefs_feedback a:hover {
+    background-color: rgb(31, 56, 199);
+}
+
+.form{
+    
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+}
+
+
+.form input{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-top: 5px;
+    float: left;
+    clear: both;
+    width: 40%;
+}
+
+form input:focus {border: 2px solid silver;}
+
+#area{
+    background-color:#fafafa ;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+    border-radius: 10px;
+    float: left;
+    padding: 5px 12px;
+    margin-top: 10px;
+    clear: both;
+    width: 500px;
+    height: 150px;
+    width: 60%;
+}
+
+form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#send{
+    font-size: 150%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    padding: 15px;
+    background-color: rgb(224, 131, 131);
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form #send:hover{
+    background-color: rgb(202, 63, 53);
+}
+
+#menuHrefs_reg{
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color:rgb(10, 183, 252)
+
+
+}
+
+#menuHrefs_reg a:hover{
+    color:blue;
+}
